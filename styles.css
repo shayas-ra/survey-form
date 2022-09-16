@@ -1,0 +1,82 @@
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(45deg, rgb(150, 101, 101), rgb(95, 95, 141));
+    color: #f3f4f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+#description {
+    text-align: center;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+#description {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.container {
+    width: 60vw;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+    background-color: black;
+    padding: 2rem;
+    opacity: 0.7;
+}
+
+label, .label{
+    display: block;
+    margin: 1em 0px;
+    font-size: 18px
+}
+
+input,
+select {
+    width: 100%;
+    font-size: 18px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 6px;
+}
+
+select option:first-child {
+    color: rgb(78, 76, 76);
+}
+.label{
+    margin-bottom: 0;
+}
+#radio-label, #checkbox-label{
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+input[type="radio"], input[type="checkbox"] {
+    width: unset;
+    margin: 0 auto;
+}
+textarea{
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 8px;
+}
+
+input[type="submit"]{
+    background-color: green;
+    color: #f3f4f5;
+    font-size: 22px;
+    padding: 8px 0px;
+}
+
+fieldset{
+    border: none;
+}
